@@ -1,0 +1,17 @@
+FILTER SETTINGS
+Filter Type     : Kalman 
+Observation Type: Graphic 
+
+FILTER DATA FORMAT
+[ year month day hour minute second ] [fFlag]
+[ x y z vx vy vz RecClc ]
+      Where;
+         x,y,z   : positions   
+         vx,vy,vz: velocities   
+         RecClc  : Receiver clock   
+         fFlag    : Filter prediction-update flag. 
+                    1 for only time update, 0 for measurement update   
+
+FILTER OUTPUTS
+2008 9 5 1 0 20.0000000000000  1
+    751703.8849   -4305023.5502    5566435.6474    -2960.473054     5328.625155     4509.652200     -911.838208
